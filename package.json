@@ -1,0 +1,22 @@
+{
+  "name": "cline",
+  "version": "1.0.0",
+  "description": "A clean way to write CLIs",
+  "main": "index.js",
+  "scripts": {
+    "dev:demo": "bun generate.ts demo.ts && bun demo.ts",
+    "gen:demo": "bun generate.ts demo.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Shawn Tabai",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "ts-morph": "^23.0.0",
+    "type-fest": "^4.24.0",
+    "typescript": "^5.5.4"
+  }
+}
